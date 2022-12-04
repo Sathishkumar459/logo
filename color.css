@@ -1,0 +1,156 @@
+.container{
+    height: 500px;
+    width: 600px;
+    margin: 100px auto;
+    border: 1px solid hotpink;
+    background-color: rgb(32, 15, 2);
+   
+
+}
+.divName {
+    height: 250px;
+    width:250px;
+    margin: 120px auto;
+    border: 1px solid hotpink;
+    transform: rotate(45deg);
+}
+
+.box1{
+    height: 20px;
+    width: 249px;
+    margin :-1px 0px ;
+    border: 1px solid hotpink;
+    background-color: orange;
+    z-index:5px;
+
+}
+.box2{
+    height: 249px;
+    width:20px;
+    border: 1px solid hotpink;
+    margin : 0px -2px auto;
+    background-color: rgb(164, 226, 236);
+    z-index:5px;
+}
+
+.box3{
+    height: 249px;
+    width:20px;
+    margin : -1px 229px auto;
+    border: 1px solid hotpink;
+    background-color: rgb(41, 60, 231);
+    z-index:5px;
+}
+.box4{
+    height: 20px;
+    width: 249px;
+    margin :228px -230px auto;
+    border: 1px solid hotpink;
+    background-color:  rgb(115, 241, 115);
+    z-index:5px;
+}
+.text{
+    margin: -125px auto;
+    transform: rotate(-45deg);
+    color: white;
+    font-weight: bold;
+    
+    
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+@media screen and (min-width: 601px) {
+    .container{
+      font-size: 18px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    
+    .container{
+        height: 400px;
+        width:400px;
+        border: 1px solid red;
+        position: absolute;
+        right: 130px;
+        margin: 30px auto;  
+        background-color: blueviolet;
+        }
+        .divName
+        {
+            margin: 65px auto;
+        }
+    
+  }
+    
+  @media screen and (max-width: 400px) {
+    
+    .container{
+        height: 300px;
+        width:250px;
+        border: 1px solid red;
+        position: absolute;
+        right: 130px;
+        margin: 30px auto;  
+        background-color: yellow;
+        }
+        .divName {
+            height: 150px;
+            width:150px;
+            margin: 60px auto;
+            border: 1px solid hotpink;
+            transform: rotate(45deg);
+        }
+        
+        .box1{
+            height: 5px;
+            width: 149px;
+            margin :-1px 0px ;
+            border: 1px solid hotpink;
+            background-color: orange;
+            z-index:5px;
+        
+        }
+        .box2{
+            height: 149px;
+            width:5px;
+            border: 1px solid hotpink;
+            margin : 0px -2px auto;
+            background-color: red;
+            
+        }
+        
+        .box3{
+            height: 149px;
+            width:5px;
+            margin : -1px 0px auto;
+            border: 1px solid hotpink;
+            background-color: rgb(41, 60, 231);
+            z-index:5px;
+        }
+        .box4{
+            height: 5px;
+            width: 149px;
+            margin :150px -1px auto;
+            border: 1px solid hotpink;
+            background-color:  rgb(149, 115, 241);
+            z-index:5px;
+        }
+        .text{
+            margin: -105px auto;
+            transform: rotate(-45deg);
+            color: red;
+            font-weight: bold;
+            
+            
+            
+        }
+        span{
+            color: green;
+            font-weight: bold;
+        }
+    
+  }
